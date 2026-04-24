@@ -49,8 +49,21 @@ export default function Testimonials() {
 
   return (
     <>
-      {/* CTA Banner */}
-      <section className="w-full bg-neutral-50 py-12">
+      {/* Mobile */}
+      <section className="lg:hidden w-full bg-neutral-50 py-8">
+        <div className="px-4">
+          <div className="bg-[#571244] rounded-xl px-6 py-12 flex flex-col items-center text-center gap-6">
+            <p className="font-nunito text-h5 font-semibold text-white leading-snug">
+              Don't just dream it—let's build it! Click now and start your project with Tobams Group. Your journey to digital excellence begins here.
+            </p>
+            <button className="w-4xl px-8 py-3 mt-7 bg-white text-primary font-nunito-sans font-semibold text-body rounded hover:bg-lavender transition-colors">
+              Book a Consultation
+            </button>
+          </div>
+        </div>
+      </section>
+      {/* Desktop cta*/}
+      <section className="hidden lg:block w-full bg-neutral-50 py-12">
         <div className="max-w-content mx-auto px-8">
           <div className="bg-[#571244] rounded-xl px-12 py-10 flex flex-col items-center text-center gap-7 max-w-5xl mx-auto">
             <p className="font-nunito text-h4 font-semibold text-white leading-snug max-w-2xl">
@@ -62,7 +75,8 @@ export default function Testimonials() {
             </button>
           </div>
         </div>
-      </section>
+        </section>
+
 
       {/* Testimonials */}
       <section className="w-full bg-neutral-50 py-16" id="testimonials">
