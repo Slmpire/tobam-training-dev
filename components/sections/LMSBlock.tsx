@@ -18,7 +18,7 @@ export default function LMSBlock() {
 
           {/* Circular image */}
           <div className="w-full lg:w-[42%] flex items-center justify-center lg:justify-start shrink-0">
-            {/* Mobile: responsive circle using aspect-ratio trick */}
+            {/* Mobile: responsive cicrle */}
             <div className="relative w-[75vw] max-w-[320px] lg:hidden aspect-square rounded-full overflow-hidden shadow-md">
               <Image
                 src="/images/lms-team.jpg"
