@@ -205,7 +205,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
   <div className="max-w-content mx-auto px-8 py-5 flex flex-col-reverse md:flex-row items-center justify-between gap-4">
     <p className="font-nunito-sans text-body-sm text-white/80 text-center md:text-left">
-      Copyright © Tobams Group, 2024. All rights reserved.
+      Copyright © Tobams Group, 2026. All rights reserved.
     </p>
     <div className="flex flex-col md:flex-row items-center gap-3 md:gap-6">
       {["Privacy Policy", "Cookies Policy", "Terms and Conditions"].map((item) => (
