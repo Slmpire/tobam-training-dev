@@ -8,7 +8,7 @@ A Tobams Group Training and Development web page, built as a frontend assessment
 
 | | |
 |---|---|
-| **Live URL** | [https://your-deployment-url.vercel.app](https://your-deployment-url.vercel.app) |
+| **Live URL** | [https://tobam-training-dev.vercel.app/](https://tobam-training-dev.vercel.app/) |
 | **GitHub Repo** | [https://github.com/Slmpire/tobam-training-dev.git](https://github.com/Slmpire/tobam-training-dev.git) |
 | **Figma Design** | [https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0](https://www.figma.com/design/wuqCLkK1feTgB6xxSRRwZu/Frontend-Intern-Assessment?node-id=0-1&p=f&t=qxnAKp4Ael8QtLYz-0) |
 
