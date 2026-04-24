@@ -16,9 +16,19 @@ export default function LMSBlock() {
       <div className="max-w-content mx-auto px-8">
         <div className="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
 
-          {/* Circular image — centered on mobile, left-aligned on desktop */}
+          {/* Circular image */}
           <div className="w-full lg:w-[42%] flex items-center justify-center lg:justify-start shrink-0">
-            <div className="relative w-[380px] h-[380px] sm:w-[440px] sm:h-[440px] lg:w-[380px] lg:h-[380px] rounded-full overflow-hidden shadow-md">
+            {/* Mobile: responsive circle using aspect-ratio trick */}
+            <div className="relative w-[75vw] max-w-[320px] lg:hidden aspect-square rounded-full overflow-hidden shadow-md">
+              <Image
+                src="/images/lms-team.jpg"
+                alt="TG Academy team members"
+                fill
+                className="object-cover"
+              />
+            </div>
+            {/* Desktop: fixed size circle */}
+            <div className="relative hidden lg:block w-[380px] h-[380px] rounded-full overflow-hidden shadow-md">
               <Image
                 src="/images/lms-team.jpg"
                 alt="TG Academy team members"
@@ -31,7 +41,6 @@ export default function LMSBlock() {
           {/* Content */}
           <div className="w-full lg:w-[58%] flex flex-col gap-6">
 
-            {/* Title — hidden on mobile (shown above image via heading below), visible on desktop */}
             <h2 className="font-nunito text-h3 lg:text-[40px] font-bold text-primary leading-tight">
               Learning Management System
             </h2>
@@ -53,7 +62,7 @@ export default function LMSBlock() {
                   Some of our courses include:
                 </p>
 
-                {/* Mobile: single column list with bullet dots */}
+                {/* Mobile: single column */}
                 <ul className="flex flex-col gap-2 lg:hidden">
                   {courses.map((course) => (
                     <li key={course} className="flex items-center gap-2">
