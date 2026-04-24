@@ -40,7 +40,7 @@ export default function Testimonials() {
   const prev = () => setIndex((i) => Math.max(0, i - 1));
   const next = () => setIndex((i) => Math.min(testimonials.length - 1, i + 1));
 
-  // Desktop: show 3 at a time, clamp so we don't go past end
+  // Desktop: show 3 at a time
   const desktopStart = Math.min(index, testimonials.length - 3);
   const visibleDesktop = testimonials.slice(desktopStart, desktopStart + 3);
 

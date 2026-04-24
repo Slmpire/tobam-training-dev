@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section className="w-full relative min-h-[511px] mb-8 flex items-center justify-center">
 
-      {/* Background image — PUT YOUR HERO IMAGE IN /public/images/hero.jpg */}
+      {/* Background image */}
       <Image
         src="/images/hero.jpg"
         alt="Training and development background"
